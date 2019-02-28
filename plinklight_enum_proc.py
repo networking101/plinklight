@@ -10,9 +10,9 @@ from optparse import OptionParser
 from datetime import datetime
 
 
-username = '' #'mcdaniec'
-password = '' #'Th1$1$th3CRdr@v3'
-targetFile = [] #['131.7.235.78']
+username = ''
+password = ''
+targetFile = []
 csvpath = ''
 
 pwd = os.getcwd()

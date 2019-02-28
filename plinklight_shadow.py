@@ -9,18 +9,9 @@ from optparse import OptionParser
 from datetime import datetime
 
 
-'''
-TODO
-
-Implement API Key Arg
-Implement Logging vs Print statements
-Move for loop out deployEndgame function 
-Look into multithreading deployment
-'''
-
-username = '' #'mcdaniec'
-password = '' #'Th1$1$th3CRdr@v3'
-targetFile = [] #['131.7.235.78']
+username = ''
+password = ''
+targetFile = []
 csvpath = ''
 
 pwd = os.getcwd()
